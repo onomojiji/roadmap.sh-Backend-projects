@@ -32,6 +32,8 @@ def save_to_json(data: dict) -> None:
 def add_task(desciption: str) -> dict:
     
     id = len(task_dict) + 1
+    while str(id) in task_dict:
+        id += 1
     description = desciption
     status = "todo"
     created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

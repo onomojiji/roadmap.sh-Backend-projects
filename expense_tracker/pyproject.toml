@@ -1,0 +1,14 @@
+[project]
+name = "expense-tracker"  # this is the name of the package
+version = "1.0.0"
+description = "Expense tracker is a project used to track and manage your expenses"
+
+[project.scripts]
+expense-tracker = "app.app:cli"  # cli runner function path
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "app"        # this is the name of the module

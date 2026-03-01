@@ -1,0 +1,26 @@
+{
+  "1": {
+    "date": "2026-03-01",
+    "category": "Food",
+    "description": "Lunch at restaurant",
+    "amount": 15.5,
+    "created_at": "2026-03-01 09:54:27",
+    "updated_at": "2026-03-01 09:54:27"
+  },
+  "2": {
+    "date": "2026-03-01",
+    "category": "Transport",
+    "description": "Taxi to airport",
+    "amount": 30.0,
+    "created_at": "2026-03-01 09:54:27",
+    "updated_at": "2026-03-01 09:54:27"
+  },
+  "3": {
+    "date": "2026-03-01",
+    "category": "Dansing club bill",
+    "description": "monthly subscription",
+    "amount": 500,
+    "created_at": "2026-03-01 10:02:22",
+    "updated_at": "2026-03-01 10:02:22"
+  }
+}
